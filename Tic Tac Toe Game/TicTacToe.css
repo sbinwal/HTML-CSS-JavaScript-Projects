@@ -1,0 +1,177 @@
+body{
+
+    margin:0;
+    padding: 0;
+}
+nav{
+
+    background-color: rgb(37, 9, 37);
+    display: flex;
+    /* width: 1366px; */
+    
+    
+    
+
+}
+
+
+li{
+    color:white;
+    font-size: 27px;
+    
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: -15px;
+    
+
+    
+}
+
+.container{
+
+    display:flex;
+     justify-content: center;
+    /* align-items: center;  */
+    margin-top: 60px;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+}
+
+.grid{
+
+    display: grid;
+    /* background-color: blue; */
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: 'Baloo Bhaina 2', cursive;
+    /* position:relative; */
+    /* width: 400px;
+    height: 340px; */
+    
+    /* align-items: center;
+    justify-items: center; */
+    /* border: 3px solid rgb(7, 7, 7); */
+    /* row-gap: 1px;
+    column-gap: 1px; */
+    
+}
+
+.common
+{
+    border:2px solid black;
+    font-size: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* align-self: center;
+    justify-self: center; */
+}
+
+.bt{
+
+    border-top: 0;
+}
+
+.bd{
+
+    border-bottom: 0;
+}
+
+.br{
+
+    border-right: 0;
+}
+
+.bl{
+
+border-left: 0;
+}
+
+.container1{
+
+    padding: 0 50px;
+    /* width: 520px; */
+    font-family: 'Baloo Bhaina 2', cursive;
+    
+}
+
+button{
+
+    width:80px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* p{
+    font-weight: bolder;
+    font-size: 2vw;
+} */
+
+.common:hover{
+
+    background-color: blueviolet;
+}
+
+h1{
+
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 638px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  h1{
+
+    font-size: 1.5rem;
+  }
+  .grid{
+    grid-template-rows: repeat(3,20vw);
+    grid-template-columns: repeat(3,20vw);
+  }
+  
+}
+
+@media screen and (max-width: 494px)
+{
+.container1{
+     margin-left: 70px;
+}
+}
+
+
+
+img{
+
+    width:0px;
+    transition: width is ease-in-out;
+    transition-duration: 1s;
+}
+
+.line{
+
+    background-color: black;
+    height: 0vw;
+    width:0px; 
+    position: absolute;
+    /* transform:translate(15vw) rotate(90deg); */
+    
+    /* transition: height is ease-in-out;
+    transition: width is ease-in-out; */
+    transition-duration: 1s;
+
+}
+
+.common:hover{
+
+    cursor: pointer;
+}
+
+.reset:hover{
+
+    cursor: pointer;
+}

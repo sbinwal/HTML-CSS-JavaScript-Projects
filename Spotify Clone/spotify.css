@@ -1,0 +1,189 @@
+ul{
+     
+    display:flex;
+    color: white;
+    
+}
+
+img{
+
+    width: 30px;
+
+}
+
+#spotify{
+
+    padding-top: 10px;
+}
+
+.Container{
+
+    
+    height: 900px;
+    width: 1100px;
+    background-image: url("bg.jpg");
+    border-radius: 20px;
+    margin: auto;
+}
+
+.common{
+
+    background-color: white;
+    width: 600px;
+    height: 55px;
+    border: 2px solid blue;
+    margin-bottom: 20px;
+    border-radius: 60px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+ .time{
+
+    margin-right: 20px;
+    
+
+}
+
+/*.song{
+
+    margin-left: 130px;
+    position: relative;
+    top:4px
+}*/
+
+.logo{
+
+    margin-left: 30px;
+    /* margin-top: 55px;
+    position: relative;
+    top: 13px; */
+    
+    
+    
+    
+    
+} 
+
+.image{
+
+    border-radius: 34px;
+}
+
+.nav{
+    
+    height: 70px;
+    width:1345px;
+    background-color: black;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+
+}
+
+.logoo{
+
+    width:40px
+}
+
+#spotify{
+
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+#home{
+
+    padding-top: 13px;
+    margin-left: 15px;
+}
+
+#about{
+
+    padding-top: 13px;
+    margin-left: 15px;
+}
+
+
+
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+
+#progressbar{
+
+width: 900px;
+margin: 40px;
+margin-left: 180px;
+margin-top: 30px;
+}
+
+.footer{
+
+    background-color: black;
+    height: 130px;
+    width:1345px;
+    margin-top: 50px;
+    position: sticky;
+    bottom: 0;
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.play{
+
+     color:white;
+    display: flex;
+    justify-content: center;
+    padding-right: 350px;
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.control
+{
+    font-size: 50px;
+    
+}
+
+p{
+    position: relative;
+    right: 80px;
+    bottom:15px
+}
+
+.songItemPlay:hover{
+
+    cursor: pointer;
+}
+
+#previous:hover{
+
+    cursor: pointer;
+}
+#next:hover{
+
+    cursor: pointer;
+}
+
+#masterplay:hover{
+
+    cursor: pointer;
+}
+
+#progressbar:hover{
+
+    cursor: pointer;
+}

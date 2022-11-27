@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <header>
+            <h1> Calculator</h1>
+        </header>
+        <div class="container">
+            <input type="text" class="iteme" id="item1">
+            <button class="item">C</button>
+            <button class="item">%</button>
+            <button class="item">⌫</button>
+            <button class="item">M-</button>
+            <button class="item">7</button>
+            <button class="item">8</button>
+            <button class="item">9</button>
+            <button class="item">X</button>
+            <button class="item">4</button>
+            <button class="item">5</button>
+            <button class="item">6</button>
+            <button class="item">/</button>
+            <button class="item">1</button>
+            <button class="item">2</button>
+            <button class="item">3</button>
+            <button class="item" id="item10">+</button>
+            <button class="item">0</button>
+            <button class="item">.</button>
+            <button class="item">=</button>
+            <button class="item">-</button>
+
+        </div>
+    </div>
+
+    <script>
+        // greet=()=>console.log("hello");
+
+
+        // setTimeout(()=>greet(),10000);
+        let string = "";
+        let buttons = document.querySelectorAll('.item');
+        console.log(buttons)
+        Array.from(buttons).forEach((button) => {
+            console.log(button)
+            button.addEventListener('click', (e) => {
+
+                // console.log(e.target)
+                if (e.target.innerHTML == '=') 
+                {
+
+                    string = eval(string);
+                    
+                    document.querySelector('input').value = string;
+
+                }
+                  
+                
+
+                    else if(e.target.innerHTML == 'X')
+               {
+                string = string + '*';
+                document.querySelector('input').value = string;
+               }
+
+               else if(e.target.innerHTML == '⌫')
+               {
+                string = string.slice(0,string.length-1);
+                document.querySelector('input').value = string;
+               }
+
+               else if (e.target.innerHTML == 'C') 
+                    {
+                      
+                        string = "";
+                         document.querySelector('input').value = string;
+
+                    } 
+
+                else 
+                {
+                    console.log(e.target)
+                    string = string + e.target.innerHTML;
+                    document.querySelector('input').value = string;
+                }
+            })
+        }) 
+
+    </script>
+</body>
+
+</html>

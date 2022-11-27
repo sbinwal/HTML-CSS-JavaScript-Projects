@@ -1,0 +1,73 @@
+.background{
+
+    height: 100vh;
+    width:100%;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.tree{
+
+    height: 97vh;
+    width: 100%;
+    background-image: url("trees.png");
+    position: absolute;
+    top: -23vh;
+    background-size: cover;
+}
+
+.track{
+
+    height: 60vh;
+    width: 100%;
+    background-image: url("track.png");
+    position: absolute;
+    top:70vh;
+    
+    
+
+}
+
+.car img{
+
+    
+    width: 200px;
+    height: 100px;
+    position:absolute;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    top:61vh;
+    left:29vw;
+
+}
+
+.wheelleft img{
+
+    width:40px;
+    height:60px;
+    position: absolute;
+    left:30.6vw;
+    top:67.48vh;
+    background-size: cover;
+}
+
+.wheelright img{
+
+    width:40px;
+    height:60px;
+    position:absolute;
+    top:67.8vh;
+    left:38vw;
+    background-size: cover;
+
+
+}
+
+.car{
+    position: absolute;
+    bottom:59vh;
+    width: 200px;
+    height: 280px;
+}

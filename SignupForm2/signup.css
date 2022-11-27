@@ -1,0 +1,163 @@
+body{
+
+    margin: 0vw;
+    padding: 0vw;
+   background-color: #f8f8f8;
+} 
+
+/* header{
+
+     width: 10vw;
+     margin-left: 20vw; 
+    text-align: center;
+} */
+form{
+
+    width: 650px;
+    height: 470px;
+    margin-left: 18vw; 
+    border: 2px solid white;
+    margin-top: 5.5vw; 
+    margin-bottom: 5.5vw;
+    padding: 0vw 2vw 2vw 2vw;
+    padding-left: 1vw;
+    /* padding-top: 0.05vw; */
+    border-radius: 10px;
+    background-color: white;
+
+    
+}
+
+#press{
+
+    background: #6dabe4;
+}
+
+#press:hover{
+
+    background-color: #4c9de9;
+    cursor: pointer;
+}
+
+#pic{
+    /* position:absolute;
+    left:50%;
+    bottom: 20%;  */
+    
+     float: right; 
+     margin-top: 5px;
+     width: 230px;
+     height: 250px;
+    
+     margin-top: 6vw;
+     
+
+}
+
+.container{
+    margin-left: 8vw;
+    margin-top: 5vw;
+    /* margin-bottom: vw; */
+
+    /* margin-bottom: 100vw; */
+    
+}
+
+input{
+
+    border:none;
+    border-bottom: 1px solid #999;
+    
+}
+
+input:focus{
+
+    outline:none;
+}
+.click{
+
+    border-bottom: 0;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 4px;
+    color: white;
+    
+    
+}
+/* .registerr{
+
+    
+} */
+
+.image{
+
+    margin-right: 4vw;
+    /* margin-bottom: 100vw; */
+    /* margin-top: 10vw; */
+    /* padding-top: 10vw; */
+    /* width: 10px; */
+}
+
+a.member{
+
+margin-left: 210px;
+/* margin-bottom: 200px; */
+}
+
+a{
+
+    color: rgba(0, 0, 0, 0.822);
+    font-size: 12px;
+}
+
+ /* .material-symbols-outlined{
+
+    position: relative;
+    
+    
+    left: 1.8vw;
+
+}  */
+
+input{
+
+    padding-left: 1.7vw;
+}
+
+i{
+    /* font-size: 12px; */
+
+    font-size: 12px;
+    position: absolute;
+    padding-top: 7px;
+    /* margin-top: 20px; */
+    
+}
+
+.small{
+
+    font-size: 12px;
+    
+}
+
+ h1{
+
+    font-family: 'Poppins',  sans-serif;
+} 
+
+input{
+
+    font-family: 'Poppins',  sans-serif;
+
+}
+
+label{
+
+    font-family: 'Poppins',  sans-serif;
+}
+
+/* .sandeep{
+
+    margin-top: 1vw;
+} */
+
+
